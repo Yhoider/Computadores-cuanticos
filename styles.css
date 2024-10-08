@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: justify
     
 }
 
@@ -36,6 +37,7 @@ h2 {
 p {
     line-height: 1.6;
     margin-bottom: 10px;
+    
 }
 
 ul, ol {
