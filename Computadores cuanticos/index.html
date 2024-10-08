@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki de Computadores Cuánticos</title>
+    <link rel="icon" href="img/ordenador-cuantico-2522803.jpg" type="img.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Computadores Cuánticos</h1>
+    </header>
+
+    <section>
+        <h2>¿En qué consisten?</h2>
+        <p>
+            Las computadoras cuánticas son dispositivos de procesamiento de información que aprovechan los principios de la mecánica cuántica,
+            una rama de la física que describe el comportamiento de las partículas a nivel subatómico. A diferencia de las computadoras clásicas,
+            que usan bits para representar datos como 0 o 1, las computadoras cuánticas emplean <strong>qubits</strong>, que pueden estar en un 
+            estado de 0, 1 o en una <em>superposición</em> de ambos simultáneamente.
+        </p>
+        <p>Otros conceptos clave incluyen:</p>
+        <ul>
+            <li>
+                <strong>Entrelanzamiento:</strong> Fenómeno donde dos qubits están correlacionados de manera que el estado de
+                uno afecta al otro, sin importar la distancia.
+            </li>
+
+            <li>
+                <strong>Superposición:</strong> un qubit puede ser simultáneamente 0 y 1, lo que permite a las computadoras cuánticas procesar <br>
+                una cantidad masiva de combinaciones a la vez.
+            </li>
+            
+            <li><strong>Interferencia cuántica:</strong> Utilizada para reforzars los resultados correctos y cancelar los incorrectos durante los cálculos.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="titutle" id="pasos">Pasos para usarlo</h2>
+        <article>
+            <ol>
+
+                <li>
+                    <strong>Definir el problema:</strong> No todos los problemas son aptos para resolverse con computación cuántica.
+                    El primer paso es identificar un problema que pueda beneficiarse del paralelismo cuántico, como la optimización,
+                    simulaciones de sistemas cuánticos, problemas de factorización o búsqueda en bases de datos grandes.
+
+                </li>
+
+                <li>
+                    <strong>Traducir el problema a una forma cuántica:</strong> Una vez identificado el problema, se debe traducir a
+                    una forma que el computador cuántico pueda interpretar. Esto implica el uso de algoritmos cuánticos como el algoritmo
+                    de Shor (para factorización) o el algoritmo de Grover (para búsquedas).
+
+                </li>
+
+                <li>
+                    <strong>Programar los qubits:</strong> Utilizando herramientas de software diseñadas para computación cuántica
+                    (como Qiskit de IBM, Cirq de Google o Quipper), los desarrolladores preparan y programan los qubits para que 
+                    representen el estado inicial del problema.
+
+                </li>
+
+
+                <li>
+                    <strong>Ejecutar el cálculo cuántico:</strong> Se corre el programa cuántico en una computadora cuántica real o simulada.
+                    Los computadores cuánticos actuales son accesibles a través de la nube (como IBM Quantum Experience o D-Wave).
+
+                </li>
+
+                <li>
+                    <strong>Medir los resultados:</strong> Dado que los qubits pueden estar en múltiples estados, la medición de los
+                    resultados colapsa los qubits a un estado clásico (0 o 1). Esta medida se repite múltiples veces para obtener un
+                    resultado probabilístico.
+
+                </li>
+
+                <li>
+                    <strong>Interpretar y optimizar:</strong> Los resultados deben ser interpretados en términos del problema original,
+                    y muchas veces es necesario ajustar y ejecutar varias iteraciones para optimizar los resultados.
+                    Medir los resultados: Dado que los qubits pueden estar en múltiples estados, la medición de los resultados colapsa
+                    los qubits a un estado clásico (0 o 1). Esta medida se repite múltiples veces para obtener un resultado probabilístico.
+
+                </li>
+
+            </ol>
+        </article>
+    </section>
+
+    <section>
+        <h2 >Área de aplicación</h2>
+        <article class="aplicacion">
+            <p>
+                Las aplicaciones de la computación cuántica son amplias, especialmente en áreas donde los cálculos complejos y el análisis masivo de datos son fundamentales.
+                Algunos campos clave incluyen:
+            </p>
+            <ul>
+                <li>
+                    <strong>Criptografía:</strong> Los computadores cuánticos pueden romper muchos de los sistemas de cifrado actuales (como RSA)
+                    al resolver problemas de factorización de números grandes. También están desarrollando nuevos sistemas de criptografía cuántica
+                    para proteger información con claves prácticamente irrompibles. 
+                </li>
+                    
+                <li>
+                    <strong>Optimización:</strong> Los algoritmos cuánticos pueden encontrar soluciones óptimas en problemas de optimización combinatoria
+                    (como el transporte, rutas de logística o la planificación financiera), donde hay múltiples variables y restricciones a considerar.
+
+                </li>
+
+                <li>     
+                    <strong>Simulaciones de sistemas cuánticos:</strong> Son ideales para simular procesos moleculares y químicos complejos que serían 
+                    imposibles de resolver con computadores clásicos. Esto es crucial para el desarrollo de nuevos materiales, fármacos y energías limpias.
+
+                </li>
+
+                <li>
+                    <strong>Inteligencia artificial y machine learning:</strong> La computación cuántica puede acelerar significativamente el entrenamiento
+                     de modelos de inteligencia artificial, mejorando la velocidad de los algoritmos de aprendizaje y la gestión de grandes cantidades de datos.
+
+                </li>
+
+                <li>
+                    <strong>Medicina personalizada:</strong> Simulaciones cuánticas podrían analizar con mayor precisión el comportamiento molecular de los
+                    genes y proteínas, lo que ayudaría a personalizar tratamientos médicos basados en la biología individual de cada paciente.
+
+                </li>
+
+                <li>
+                    <strong>Ciencia de materiales:</strong> La creación de nuevos materiales con propiedades específicas, como superconductores a temperatura
+                    ambiente o mejores baterías, puede beneficiarse de las simulaciones cuánticas que permiten estudiar el comportamiento de los átomos y
+                    electrones en detalle.
+
+                </li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2>Descripción de un caso real</h2>
+        <p>En 2019, Google anunció que su procesador cuántico <strong>Sycamore</strong> alcanzó la "supremacía cuántica". Sycamore, utilizando 53 qubits, completó una tarea de muestreo aleatorio en 200 segundos, un proceso que a la supercomputadora más potente le tomaría 10,000 años.</p>
+        <p>Este experimento demostró el potencial de las computadoras cuánticas para resolver problemas que las computadoras clásicas no pueden manejar eficientemente.</p>
+    </section>
+
+    <footer>
+        <p>Wiki de computadoras cuánticas.</p>
+    </footer>
+</body>
+</html>
